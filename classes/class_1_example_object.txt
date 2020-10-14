@@ -1,0 +1,14 @@
+Object: gladys_b
+
+name: Gladys Benson
+waited_tables: [D1, D2, D3, F6, F7, F8]
+shift_start (4PM)
+shift_end (10PM)
+shift_pay (0.00)
+
+Methods:
+
+wait_bar_seating: adds B2, B3, and B4 to waited_tables array
+share_tips: adds 14.34 to shift_pay
+work_brunch_shift: updates shift-start to 9AM
+apply_wage: adds 120.54 to shift_pay
