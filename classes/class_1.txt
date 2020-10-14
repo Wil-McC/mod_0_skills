@@ -1,0 +1,16 @@
+Class: Waiter
+
+Attributes:
+
+name (string)
+waited_tables (array)
+shift_start (datetime)
+shift_end (datetime)
+shift_pay (float)
+
+Methods:
+
+wait_bar_seating (adds bar_stools to waited_tables array)
+share_tips (add portion of tips money to shift_pay float)
+work_brunch_shift (updates shift_start to 9AM)
+apply_wage (adds money to shift_pay based on shift_start and shift_end)
