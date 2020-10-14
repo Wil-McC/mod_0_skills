@@ -1,0 +1,17 @@
+food = "pho cali"
+
+is_delicious = true
+
+food = "meatball sub"
+
+num2 = 22
+
+num7 = 8
+
+quotient = num7 / num2
+
+songs = ["Blue River", "Angel Eyes", "These Eyes"]
+
+songs.shift
+
+food.length
