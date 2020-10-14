@@ -1,0 +1,17 @@
+Class: Toasted Mango Cafe Bar
+
+Attributes:
+
+stool_count: 6
+drink_list: ["mimosa", "bloodymary"]
+seated_stools: 2
+bartenders: ["Jill S.", "Pete Y."]
+is_serving = true
+special_price = 12.99
+
+Methods:
+
+happy_hour: reduce special_price to 10.99
+sunday_morning: update is_serving to false
+seat_overflow: updates seated_stools to 6
+borrow-seating: updates stool_count to 4
