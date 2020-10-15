@@ -4,7 +4,7 @@ Attributes:
 
 stool_count (integer)
 drink_list (array)
-seated_stools (array)
+seated_stools (integer)
 bartenders (array)
 is_serving (boolean)
 special_price (float)
@@ -13,5 +13,5 @@ Methods:
 
 happy_hour (updates bartenders array, applies a sale on special_price)
 sunday_morning (updates is_serving to false)
-seat_overflow (updates seated_stools array)
+seat_overflow (updates seated_stools count)
 borrow-seating (updates stool_count)
